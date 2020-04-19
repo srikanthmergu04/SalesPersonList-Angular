@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sales-project"
+    }
+  },
+  "defaultProject": "sales-project",
+  "cli": {
+    "analytics": "0eb4af04-4d11-4e1c-8047-c5c41c7230c1"
+  }
 }
