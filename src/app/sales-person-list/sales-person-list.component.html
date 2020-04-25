@@ -13,7 +13,7 @@
                 <td> {{salesPerson.firstName}}</td>
                 <td> {{salesPerson.lastName}}</td>
                 <td> {{salesPerson.email}}</td>
-                <td> {{salesPerson.salesVolume}}</td>
+                <td> {{salesPerson.salesVolume | currency: 'USD'}}</td>
                 <td>
                     <div *ngIf = "salesPerson.salesVolume >= 6000; else myElseBlock">YES</div>
                     <ng-template #myElseBlock>NO</ng-template>
